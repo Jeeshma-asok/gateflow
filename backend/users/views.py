@@ -13,7 +13,6 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.decorators import action
 
 from permissions.permissions import HasRBACPermission
-from common.api_permissions import IsAdminOrReadOnlyForAuthenticated
 from .serializers import UserSerializer, RoleSerializer
 from .models import UserRole
 from .pagination import UserPagination
